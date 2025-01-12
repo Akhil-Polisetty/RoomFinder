@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 
 const Page = () => {
   // const [rid, setRid] = useState("");
-  const [room,setRoom] = useState()
+  const [room, setRoom] = useState();
   useEffect(() => {
     async function fetchTotalRoomDetails() {
       // Fetch the current URL
@@ -25,9 +25,8 @@ const Page = () => {
         if (room.ok) {
           const data = await room.json();
           setRoom(data);
-        }
-        else{
-          console.log("failed to fetch room ",room.message)
+        } else {
+          console.log("failed to fetch room ", room.message);
         }
       } catch (error) {
         console.log(error.message);
@@ -38,7 +37,6 @@ const Page = () => {
   return (
     <div>
       <TotalRoomCard room={room} />
-
     </div>
   );
 };

@@ -166,13 +166,13 @@ const Starting = () => {
             </div>
             <div className="md:w-1/2 md:pl-8">
               <p className="text-lg text-gray-700 mb-4">
-                We're passionate about connecting people with their perfect
+                We are passionate about connecting people with their perfect
                 living spaces. Our platform simplifies the process of finding
                 and listing rooms, eliminating the need for middlemen and making
                 housing accessible to everyone.
               </p>
               <p className="text-lg text-gray-700 mb-4">
-                Founded in 2023, we've helped thousands of people find their
+                Founded in 2023, we have helped thousands of people find their
                 ideal homes and assisted property owners in finding reliable
                 tenants. Our mission is to create a transparent, efficient, and
                 user-friendly rental marketplace.
@@ -195,8 +195,8 @@ const Starting = () => {
           <div className="md:flex">
             <div className="md:w-1/2 mb-6 md:mb-0">
               <p className="text-lg text-gray-700 mb-4">
-                We're here to help! If you have any questions, concerns, or
-                feedback, please don't hesitate to reach out to us.
+                We are here to help! If you have any questions, concerns, or
+                feedback, please do not hesitate to reach out to us.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">
